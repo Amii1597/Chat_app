@@ -1,0 +1,78 @@
+
+.create-btn{
+    position: absolute;
+width: 250px;
+height: 51px;
+left: 10px;
+top: 70px;
+color: white;
+background: #000000;
+border-radius: 50px;
+}
+.datashow{
+
+    position:absolute;
+    width: 440px;
+    height: 190px;
+    left: 586px;
+    top: 200px;
+    
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.modal-wrapper{
+    position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: rgba(47, 47, 47, 0.75);
+}
+.color_list{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 1rem;
+padding: 6px;
+}
+.create_btn{
+    position: absolute;
+width: 120px;
+height: 28px;
+left: 315px;
+top: 160px;
+color: white;
+background: #000000;
+border-radius: 11px;
+}
+.choose_colour{
+    padding: 7px;
+    margin: 2px;
+}
+.group_name{
+    padding: 7px;
+    margin: 2px;
+}
+.input_text{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 235px;
+height: 40px;
+left: 140px;
+top: 2rem;
+
+background: #FFFFFF;
+border: 2px solid #CCCCCC;
+border-radius: 22px;
+}
+.heading_group{
+ text-align: center;
+}
+.color_item{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--bg-color);
+border-radius: 50%;
+}
