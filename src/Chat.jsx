@@ -3,21 +3,21 @@ import './css/chat.css'
 import { useParams } from 'react-router-dom'
 import db from './firebase';
 const Chat = () => {
-    const{roomId}=useParams();
-    const[roomName,setRoomName]=useState("");
-    useEffect(()=>{
-if(roomId){
-    db.collection("rooms").doc(roomId).onSnapshot(snapshot=> {
-setRoomName(snapshot.data().name);
-    })
-}
-    },[roomId])
+//     const{roomId}=useParams();
+//     const[roomName,setRoomName]=useState("");
+//     useEffect(()=>{
+// if(roomId){
+//     db.collection("rooms").doc(roomId).onSnapshot(snapshot=> {
+// setRoomName(snapshot.data().name);
+//     })
+// }
+//     },[roomId])
   return (
   <>
     <div className="chat">
         <div className="chat_header">
             <div className="chat_headerinfo">
-<h3>{roomName}</h3>
+<h3>Cuvette Notes</h3>
 <p>last seen</p>
             </div>
          
